@@ -52,7 +52,8 @@ fun ComposeArticle() {
             Image(
                 painter = painterResource(id = R.drawable.bg_compose_background),
                 contentDescription = null,
-                modifier = Modifier.fillMaxWidth(),  // Remplir toute la largeur
+                modifier = Modifier.fillMaxWidth()
+                    .height(180.dp),  // Remplir toute la largeur
                 contentScale = ContentScale.Crop
             )
             Text(
